@@ -1,0 +1,28 @@
+.nav {
+  display: flex;
+  width: auto;
+  justify-content: space-between;
+  align-items: center;
+  &__logo {
+    height: 4rem;
+    width: 4rem;
+    cursor: pointer;
+    padding: 0.25rem;
+    border: 2px solid var(--color-darkBlue);
+    border-radius: var(--border-circle);
+    margin-right: 20rem;
+  }
+  &__item {
+    position: relative;
+    padding: 0.75rem 2rem;
+    text-decoration: none;
+    color: white;
+    border-radius: var(--border-soft);
+    background-color: var(--color-darkBlue);
+    margin-left: 1rem;
+    transition: all 100ms ease-in-out;
+    &:hover {
+      background-color: var(--color-orange);
+    }
+  }
+}

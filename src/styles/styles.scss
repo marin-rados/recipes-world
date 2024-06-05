@@ -1,0 +1,25 @@
+:root {
+  --color-paleWhite: #ecf0f1;
+  --color-orange: #e67e22;
+  --color-darkBlue: #2c3e50;
+
+  --border-soft: 1rem;
+  --border-rounded: 2rem;
+  --border-circle: 50rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+//imports
+//
+//components
+@import "./components/header.scss";
+@import "./components/layout.scss";
+@import "./components/nav.scss";
+@import "./components/recipe.scss";
+@import './components/recipeDetails.scss';
